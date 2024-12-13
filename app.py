@@ -37,7 +37,7 @@ st.write("Elaborado por Esteban Navarro")
 
 
 
-ruta_db = "C:/Users/f/Downloads/cetav/progra_3_naib/WWI_simple.db"
+ruta_db = "Data/Northwind_small.sqlite"
 from Utils.cargar_datos import cargar_datos
 
 # Cargo los datos

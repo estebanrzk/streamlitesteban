@@ -4,7 +4,7 @@ import streamlit as st
 import os
 
 # Definimos la ruta de la base de datos
-ruta_db = r"Data/Northwind_small.sqlite"
+ruta_db = "Data/Northwind_small.sqlite"
 #Establecemos la conexión a la base de datos
 conn = sqlite3.connect(ruta_db)
 def cargar_datos():
